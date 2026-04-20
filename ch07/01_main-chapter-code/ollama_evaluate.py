@@ -70,13 +70,13 @@ def main(file_path):
     with open(file_path, "r") as file:
         test_data = json.load(file)
 
-    model = "llama3"
+    model = "gpt-oss:20b"
     scores = generate_model_scores(test_data, "model_response", model)
     print(f"Number of scores: {len(scores)} of {len(test_data)}")
     print(f"Average score: {sum(scores)/len(scores):.2f}\n")
 
 
-def generate_model_scores(json_data, json_key, model="llama3"):
+def generate_model_scores(json_data, json_key, model="gpt-oss:20b"):
     scores = []
     for entry in tqdm(json_data, desc="Scoring entries"):
         if entry[json_key] == "":

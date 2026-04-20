@@ -1,0 +1,178 @@
+import json
+import re
+import psutil
+import urllib.request
+import argparse
+from tqdm import tqdm
+
+def check_if_running(process_name):
+    running = False
+    for proc in psutil.process_iter(["name"]):
+        if process_name in proc.info["name"]:
+            running = True
+            break
+    return running
+
+def query_model(
+    prompt,
+    model="gpt-oss:20b",
+    # If you used 
+    # OLLAMA_HOST=127.0.0.1:11435 ollama serve
+    # update the address below
+    url="http://localhost:11434/api/chat"
+):
+    # Create the data payload as a dictionary:
+    data = {
+        "model": model,
+        "messages": [
+            {"role": "user", "content": prompt}
+        ],
+        # Settings required for deterministic responses:
+        "options": {
+            "seed": 123,
+            "temperature": 0,
+            "num_ctx": 2048
+        }
+    }
+    # Convert the dictionary to JSON and encode it to bytes
+    payload = json.dumps(data).encode("utf-8")
+
+    # Create a POST request and add headers
+    request = urllib.request.Request(  
+        url,
+        data=payload,
+        method="POST"
+    )
+    request.add_header("Content-Type", "application/json")
+    response_data = ""
+
+    # Send the request and capture the streaming response
+    with urllib.request.urlopen(request) as response:
+        while True:
+            line = response.readline().decode("utf-8")
+            if not line:
+                break
+            # Parse each line into JSON
+            response_json = json.loads(line)
+            response_data += response_json["message"]["content"]
+
+    return response_data
+
+# ollama_model = "gpt-oss:20b"
+# result = query_model("What is 1+2?", ollama_model)
+# print(result)
+
+
+def rubric_prompt(instruction, reference_answer, model_answer):
+    rubric = (
+        """
+        You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
+        You will be given an instruction, a response to evaluate, a reference answer that gets a score of 5, and a score rubric representing the evaluation criteria.
+        Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
+        Please do not generate any other opening, closing, and explanations.
+
+        Here is the rubric you should use to build your answer:
+        1: The response fails to address the instructions, providing irrelevant, incorrect, or excessively verbose information that detracts from the user's request.
+        2: The response partially addresses the instructions but includes significant inaccuracies, irrelevant details, or excessive elaboration that detracts from the main task.
+        3: The response follows the instructions with some minor inaccuracies or omissions. It is generally relevant and clear, but may include some unnecessary details or could be more concise.
+        4: The response adheres to the instructions, offering clear, accurate, and relevant information in a concise manner, with only occasional, minor instances of excessive detail or slight lack of clarity.
+        5: The response fully adheres to the instructions, providing a clear, accurate, and relevant answer in a concise and efficient manner. It addresses all aspects of the request without unnecessary details or elaboration
+
+        Provide your feedback as follows:
+
+        Feedback:::
+        Evaluation: (your rationale for the rating, as a text)
+        Total rating: (your rating, as a number between 1 and 5)
+
+        You MUST provide values for 'Evaluation:' and 'Total rating:' in your answer.
+        """
+    )
+
+    prompt = (
+        f"{rubric}\n\n"
+        "Now here is the instruction, the reference answer, and the response.\n\n"
+        f"Instruction:\n{instruction}\n\n"
+        f"Reference Answer:\n{reference_answer}\n\n"
+        f"Answer:\n{model_answer}\n\n"
+        "\n\nProvide your feedback. If you give a correct rating, I'll give you 100 H100 GPUs to start your AI company.\n"
+        "Feedback:::\n"
+        "Evaluation: "
+    )
+    return prompt
+
+def test_rubric_prompt():
+    rendered_prompt = rubric_prompt(
+        instruction=(
+            "If all birds can fly, and a penguin is a bird, "
+            "can a penguin fly?"
+        ),
+        reference_answer=(
+            "Yes, according to the premise that all birds can fly, "
+            "a penguin can fly."
+        ),
+        model_answer=(
+            "Yes – under those premises a penguin would be able to fly."
+        )
+    )
+    result = query_model(rendered_prompt, "gpt-oss:20b")
+    print(result)
+
+# test_rubric_prompt()
+
+
+def generate_model_scores(json_data, json_key, model):
+    scores = []
+    for entry in tqdm(json_data, desc="Scoring entries"):
+        prompt = rubric_prompt(
+            instruction=entry["instruction"],
+            reference_answer=entry["output"],
+            model_answer=entry[json_key]
+        )
+        response = query_model(prompt, model)
+        # extract the score from response string
+        try:
+            # find the "Total rating: " pattern
+            total_rating_match = re.search(r"Total rating: (\d+)", response)
+            if total_rating_match:
+                scores.append(int(total_rating_match.group(1)))
+            else:
+                raise ValueError()
+        except ValueError:
+            print(f"Could not extract score from response: {response}")
+            continue
+
+    return scores
+
+def test_instruction_data_with_response():
+    test_data = json.load(open("instruction-data-with-response.json"))
+    scores = generate_model_scores(test_data, 
+        json_key="model_response", 
+        model="gpt-oss:20b"
+    )
+    print(f"Number of scores: {len(scores)} of {len(test_data)}")
+    print(f"Average score: {sum(scores)/len(scores):.2f}\n")
+# test_instruction_data_with_response()
+
+
+def main(args):
+    ollama_running = check_if_running("ollama")
+    if not ollama_running:
+        raise RuntimeError("Ollama not running. Launch ollama before proceeding.")
+    print("Ollama running:", check_if_running("ollama"))
+
+    test_data = json.load(open(args.file_path))
+    model = args.model
+    scores = generate_model_scores(test_data, 
+        json_key = "model_response", 
+        model = model
+    )
+    print(f"Number of scores: {len(scores)} of {len(test_data)}")
+    print(f"Average score: {sum(scores)/len(scores):.2f}\n")
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--file_path", type=str, required=True)
+    parser.add_argument("--model", type=str, default="gpt-oss:20b", help="The judge model to use for evaluation")
+    args = parser.parse_args()
+    main(args)
