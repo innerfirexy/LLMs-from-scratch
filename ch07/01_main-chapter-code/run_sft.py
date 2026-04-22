@@ -213,7 +213,7 @@ def plot_losses(epochs_seen, tokens_seen, train_losses, val_losses):
     ax2.set_xlabel("Tokens seen")
 
     fig.tight_layout()  # Adjust layout to make room
-    plot_name = "loss-plot-standalone.pdf"
+    plot_name = "loss-plot.pdf"
     print(f"Plot saved as {plot_name}")
     plt.savefig(plot_name)
     # plt.show()
@@ -397,7 +397,7 @@ def main(args):
     plot_losses(epochs_tensor, tokens_seen, train_losses, val_losses)
     print(50*"-")
 
-    file_name = f"{re.sub(r'[ ()]', '', CHOOSE_MODEL) }-sft-standalone.pth"
+    file_name = f"{re.sub(r'[ ()]', '', CHOOSE_MODEL) }-sft.pth"
     if args.save_model is not None:
         file_name = args.save_model
     torch.save(model.state_dict(), file_name)
@@ -424,10 +424,10 @@ def main(args):
 
             test_data[i]["model_response"] = response_text
 
-    test_data_path = "instruction-data-with-response-standalone.json"
-    with open(test_data_path, "w") as file:
-        json.dump(test_data, file, indent=4)  # "indent" for pretty-printing
-    print(f"Responses saved as {test_data_path}")
+        test_data_path = "test-data-with-response.json"
+        with open(test_data_path, "w") as file:
+            json.dump(test_data, file, indent=4)  # "indent" for pretty-printing
+        print(f"Responses saved as {test_data_path}")
 
 
 
