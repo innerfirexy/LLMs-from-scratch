@@ -273,10 +273,10 @@ def main(args):
 
     torch.manual_seed(123)
 
-    if args.mask_instructions:
+    if args.mask_instructions == 1:
         customized_collate_fn = partial(custom_collate_with_masking_fn, device=device, allowed_max_length=1024)
         CustomDataset = InstructionDatasetWithMasking
-    else:
+    elif args.mask_instructions == 0:
         customized_collate_fn = partial(custom_collate_fn, device=device, allowed_max_length=1024)
         CustomDataset = InstructionDataset
 
@@ -398,13 +398,15 @@ def main(args):
     print(50*"-")
 
     file_name = f"{re.sub(r'[ ()]', '', CHOOSE_MODEL) }-sft-standalone.pth"
+    if args.save_model is not None:
+        file_name = args.save_model
     torch.save(model.state_dict(), file_name)
     print(f"Model saved as {file_name}")
 
     #######################################
     # Generate responses (optional)
     #######################################
-    if args.gen_res is not None:
+    if args.gen_res == 1:
         print("Generating responses")
         for i, entry in tqdm(enumerate(test_data), total=len(test_data)):
 
@@ -463,12 +465,17 @@ if __name__ == "__main__":
         default="124M",
         help="Which GPT-2 model to use. Options: 124M, 355M, 774M, 1558M."
     )
-
+    parser.add_argument(
+        "--save_model",
+        type=str,
+        default=None,
+        help="Path to save the finetuned model."
+    )
     parser.add_argument(
         "--gen_res",
         type=int,
-        default=0
-        choices=[0,1]
+        default=0,
+        choices=[0,1],
         help="The json file to generate responses on the test set. 0=do not generate, 1=generate"
     )
     args = parser.parse_args()
