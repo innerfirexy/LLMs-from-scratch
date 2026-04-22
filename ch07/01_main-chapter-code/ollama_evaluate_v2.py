@@ -2,6 +2,7 @@ import json
 import re
 import psutil
 import urllib.request
+import urllib.error
 import argparse
 from tqdm import tqdm
 
@@ -16,10 +17,7 @@ def check_if_running(process_name):
 def query_model(
     prompt,
     model="gpt-oss:20b",
-    # If you used 
-    # OLLAMA_HOST=127.0.0.1:11435 ollama serve
-    # update the address below
-    url="http://localhost:11434/api/chat"
+    url="http://127.0.0.1:11434/api/chat"
 ):
     # Create the data payload as a dictionary:
     data = {
@@ -120,7 +118,7 @@ def test_rubric_prompt():
 # test_rubric_prompt()
 
 
-def generate_model_scores(json_data, json_key, model):
+def generate_model_scores(json_data, json_key, model, url):
     scores = []
     for entry in tqdm(json_data, desc="Scoring entries"):
         prompt = rubric_prompt(
@@ -128,7 +126,7 @@ def generate_model_scores(json_data, json_key, model):
             reference_answer=entry["output"],
             model_answer=entry[json_key]
         )
-        response = query_model(prompt, model)
+        response = query_model(prompt, model, url=url)
         # extract the score from response string
         try:
             # find the "Total rating: " pattern
@@ -143,11 +141,41 @@ def generate_model_scores(json_data, json_key, model):
 
     return scores
 
+def check_ollama_reachable(base_url, timeout=5):
+    """Check if an Ollama server is reachable at the given base URL."""
+    # Try the /api/tags endpoint as a lightweight health check
+    tags_url = base_url.rstrip("/") + "/api/tags"
+    request = urllib.request.Request(tags_url, method="GET")
+    try:
+        with urllib.request.urlopen(request, timeout=timeout) as response:
+            return response.status == 200
+    except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError):
+        return False
+
+
+def resolve_url(user_url):
+    """Build the full API chat URL from a user-provided IP/hostname."""
+    user_url = user_url.strip()
+    # If user already provided a full URL, use it directly
+    if user_url.startswith("http://") or user_url.startswith("https://"):
+        return user_url
+    # Otherwise treat it as an IP address or hostname
+    return f"http://{user_url}:11434/api/chat"
+
+
+def is_localhost(url):
+    """Return True if the URL points to the local machine."""
+    # Normalize to lowercase for comparison
+    lowered = url.lower()
+    return "127.0.0.1" in lowered or "localhost" in lowered
+
+
 def test_instruction_data_with_response():
     test_data = json.load(open("instruction-data-with-response.json"))
     scores = generate_model_scores(test_data, 
         json_key="model_response", 
-        model="gpt-oss:20b"
+        model="gpt-oss:20b",
+        url="http://127.0.0.1:11434/api/chat"
     )
     print(f"Number of scores: {len(scores)} of {len(test_data)}")
     print(f"Average score: {sum(scores)/len(scores):.2f}\n")
@@ -155,16 +183,25 @@ def test_instruction_data_with_response():
 
 
 def main(args):
-    ollama_running = check_if_running("ollama")
-    if not ollama_running:
-        raise RuntimeError("Ollama not running. Launch ollama before proceeding.")
-    print("Ollama running:", check_if_running("ollama"))
+    api_url = resolve_url(args.url)
+
+    if is_localhost(api_url):
+        ollama_running = check_if_running("ollama")
+        if not ollama_running:
+            raise RuntimeError("Ollama not running locally. Launch ollama before proceeding.")
+        print("Ollama running locally:", check_if_running("ollama"))
+    else:
+        base_url = api_url.replace("/api/chat", "")
+        if not check_ollama_reachable(base_url):
+            raise RuntimeError(f"Ollama server is not reachable at {base_url}")
+        print(f"Ollama server reachable at: {base_url}")
 
     test_data = json.load(open(args.file_path))
     model = args.model
     scores = generate_model_scores(test_data, 
         json_key = "model_response", 
-        model = model
+        model = model,
+        url = api_url
     )
     print(f"Number of scores: {len(scores)} of {len(test_data)}")
     print(f"Average score: {sum(scores)/len(scores):.2f}\n")
@@ -174,5 +211,6 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--file_path", type=str, required=True)
     parser.add_argument("--model", type=str, default="gpt-oss:20b", help="The judge model to use for evaluation")
+    parser.add_argument("--url", type=str, default="127.0.0.1", help="IP address or hostname of the Ollama server (default: 127.0.0.1)")
     args = parser.parse_args()
     main(args)
