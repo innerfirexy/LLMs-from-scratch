@@ -452,6 +452,7 @@ if __name__ == "__main__":
         default="alpaca_data.json",
         help="Path to the instruction dataset JSON file."
     )
+    parser.add_argument("--num_epochs", type=int, default=2, help="Number of training epochs.")
     parser.add_argument(
         "--mask_instructions",
         type=int,
