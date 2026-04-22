@@ -1,0 +1,602 @@
+[
+    {
+        "instruction": "Give one example of an ethical issue in the use of big data.",
+        "input": "",
+        "output": "One ethical issue in the use of big data is the potential for discrimination. Big data models are built on the premise that patterns in past data can be used to predict future outcomes. However, if these models are based on data that is biased or discriminatory, they will lead to decisions that are themselves biased or discriminatory. This could manifest in the form of unequal access to services, such as credit or employment opportunities, based on race, religion, gender, or any other demographic factor. Ethics in big data must ensure that data and algorithms are not used to discriminate against any particular group.",
+        "model_response": "The ethical issue is whether the use of big data is ethical."
+    },
+    {
+        "instruction": "Generate a sentence on how technology can help with job searching.",
+        "input": "",
+        "output": "Technology can make job searching much easier and more efficient by providing tools to automate the process of finding, organizing, and appying to jobs. For instance, digital job boards such as Indeed allow users to search and apply to job postings in an organized manner, while algorithms can be used to match job seekers with relevant job postings. Furthermore, social media platforms can help job seekers build a professional network which can in turn lead to more job opportunities.",
+        "model_response": "The technology that can help with job searching is computer."
+    },
+    {
+        "instruction": "Determine three benefits of an emotional support animal.",
+        "input": "",
+        "output": "An emotional support animal (ESA) can provide several benefits to the owner.\n\nFirst, the presence of a pet can help reduce stress and anxiety by providing comfort and companionship. Simply petting a pet has been shown to reduce stress hormones and relax tense muscles, which can reduce the physical symptoms of anxiety and depression.\n\nSecondly, an ESA can help with social interaction. Since many people find it difficult to connect with others, having a pet can provide a sense of security and reduce feelings of loneliness. The presence of a pet can make social interactions easier by providing a bridge to start conversations with other people.\n\nFinally, an ESA can help provide structure and routine in the life of its owner. Taking care of a pet can provide a sense of purpose and help establish a regular routine for the pet owner. This can be beneficial for people who may struggle with managing their own daily routine.",
+        "model_response": "1. Support animal\n2. Support animal\n3. Support animal"
+    },
+    {
+        "instruction": "Given the scenario, devise a method of conflict resolution.",
+        "input": "Two colleagues are constantly competing with each other at work.",
+        "output": "The best way to resolve this conflict is to start by openly discussing the issue. Identify what each person's motivations are behind the competitive behavior and determine if there are ways to channel their energy into productive activities.\n\nThe conversation should also seek to uncover any misunderstandings or conflicts between their roles at the company. If their roles overlap, focus on clarifying and redefining those roles so each party knows what is expected of them.\n\nAnother important step is to devise a plan for handling future disputes. This plan should include strategies to avoid potential conflicts, such as setting ground rules and establishing a system of communication. All parties should agree to take responsibility for any issues that arise, and to be open to compromising and finding creative solutions.\n\nFinally, it is important that the two colleagues take time to understand each other better. Working together to find win-win solutions that are beneficial for the team and for each individual can help to ensure that the conflict does not continue.",
+        "model_response": "The two colleagues are constantly competing with each other at work."
+    },
+    {
+        "instruction": "Compile a list of the necessary items that are needed to safely go on a hike.",
+        "input": "",
+        "output": "Here is a list of items that are necessary to safely go on a hike: \n- Hiking boots \n- Waterproof clothing \n- Hiking backpack \n- Water (at least 1-2 liters/person) \n- Extra food \n- Sun protection (hat, sunglasses, sunscreen, etc.) \n- Whistle \n- Knife \n- Flashlight \n- Compass \n- Portable charger \n- Map \n- First aid kit \n- Emergency supplies (fire starter, shelter, etc.) \n- Fire extinguisher \n- Insect repellent.",
+        "model_response": "1. A hat\n2. A bag\n3. A pen\n4. A pen\n5. A pen"
+    },
+    {
+        "instruction": "Outline the essential elements of a good argument.",
+        "input": "",
+        "output": "A good argument should have several essential elements. First and foremost, a good argument must be based on valid evidence. This evidence should be backed up with credible sources, such as scientific studies or reliable news sources. The argument should also introduce the topic in an organized and clear manner, and establish the main points that need to be addressed. Additionally, a good argument should contain accurate and logical reasoning, using strong language and precise terms. Last but not least, a good argument should be well-structured, with each point leading logically to the next.",
+        "model_response": "1. Carbon\n2. Iron\n3. Iron\n4. Iron\n5. Iron\n6. Iron\n7. Iron\n8. Carbon\n9. Iron\n10. Iron\n11. Iron\n12. Iron\n13. Carbon\n14. Iron\n15. Iron"
+    },
+    {
+        "instruction": "Compare and contrast elephants and dolphins.",
+        "input": "",
+        "output": "Elephants and dolphins are both mammals from different habitats. Elephants are the largest land mammals and live on land, while dolphins are sea mammals and live in water. Elephants are herbivores, while dolphins are predators and scavengers. Elephants have large curved tusks and trunks, while dolphins have fins and blowholes. Elephants communicate primarily through sound, while dolphins communicate through clicks and whistle-like sounds. While both are intelligent and social animals, dolphins are more interactive and playful while elephants are more solitary and serious.",
+        "model_response": "Elephants are the largest mammal on Earth."
+    },
+    {
+        "instruction": "List 3 pros and 3 cons of eating a vegan diet.",
+        "input": "",
+        "output": "Pros: \n- Lower risk of health issues such as heart disease and diabetes \n- A more sustainable diet for the environment \n- Can be more affordable and accessible than a non-vegan diet \n\nCons: \n- Limited access to essential nutrients\n- More difficult to eat when dining out\n- Can be more time consuming to shop for and prepare vegan meals",
+        "model_response": "1. Pros:\nVegan diet is a great idea.\n\n2. Cons:\nThe pros of a vegan diet are:\n1. Pros:\n1. Vegan diet is a great idea.\n\n2. Cons:\nThe cons of a vegan diet are:\n1. Pros:\n1. Vegan diet is a great idea."
+    },
+    {
+        "instruction": "Explain the ethical implications of building an AI-controlled healthcare system",
+        "input": "",
+        "output": "Building an AI-controlled healthcare system could bring both positive and negative ethics implications. On the positive side, AI-controlled healthcare systems could allow better access to healthcare and enable doctors to access data more quickly. On the negative side, AI-controlled healthcare systems can lead to the potential for healthcare data to be used inappropriately and AI algorithms to misdiagnose cases and make mistakes. There is also the potential that AI-controlled systems may lead to an increased use of automated procedures which could lead to fewer jobs in the healthcare industry. The ethical implications of this system will have to be taken into account to ensure that any AI-controlled healthcare system is as fair and safe as possible.",
+        "model_response": ".\n\n\nThe ethical implications of building an AI-controlled healthcare system are as follows:\n1. The AI should be given the power to control the health of the human race.\n\n2. The AI should be given the power to control the health of the human race.\n3. The AI should be given the power to control the health of the human race.\n4. The AI should be given the power to control the health of the human race.\n5. The AI should be given the power to control the health of the human race.\n6. The AI should be given the power to control the health of the human race.\n7. The AI should be given the power to control the health of the human race.\n8. The AI should be given the power to control the health of the human race.\n9. The AI should be given the power to control the health of the human race.\n10. The AI should be given the power to control the health of the human race."
+    },
+    {
+        "instruction": "Suggest ways to reduce daily water use by households.",
+        "input": "",
+        "output": "Households can reduce their daily water use by implementing certain strategies. One tactic is to install water-saving fixtures, such as low-flow showerheads and efficient faucet aerators. Additionally, households can take shorter showers and run their washing machines and dishwashers less often or with full loads to conserve water. When washing dishes by hand, households can also conserve water by not running the faucet while they are washing. Finally, households can avoid flushing unnecessarily and collect greywater for reuse.",
+        "model_response": "The way to reduce daily water use is to reduce the amount of water used by the household."
+    },
+    {
+        "instruction": "Explain how the following symbol could be used to represent the concept of childhood.",
+        "input": "\ud83d\udc25",
+        "output": "The \ud83d\udc25 symbol can be used to represent childhood because it can evoke feelings of joy and innocence associated with childhood. It can also be associated with safety and protection, which might relate to the care provided to children from their parents or guardians. The symbol is also small and delicate, which can represent the vulnerable and impressionable nature of childhood.",
+        "model_response": "The symbol for childhood is the star."
+    },
+    {
+        "instruction": "What type of machine learning algorithm would you use to classify emails?",
+        "input": "",
+        "output": "A supervised learning algorithm such as a Support Vector Machine (SVM) or a Decision Tree could be used to classify emails. These algorithms use labelled training data to create a classification model which can then be used to classify incoming emails. These algorithms can also be used to detect spam or malicious emails.",
+        "model_response": "The type of machine learning algorithm used is the RNN."
+    },
+    {
+        "instruction": "Compress the following text into a tweet with less than 140 characters.",
+        "input": "The world is facing a climate crisis and we need to take immediate action before it's too late.",
+        "output": "Urgent: We must act now to combat the climate crisis! #ClimateAction",
+        "model_response": "The world is facing a climate crisis and we need to take immediate action before it's too late."
+    },
+    {
+        "instruction": "Curate a new playlist based on the following criteria",
+        "input": "Create a playlist with 8 romantic songs from different decades",
+        "output": "1. Elvis Presley \u2013 Can't Help Falling in Love (1960s)\n2. Marvin Gaye \u2013 Let\u2019s Get It On (1970s)\n3. Marvin Gaye & Tammi Terrell \u2013 Ain\u2019t No Mountain High Enough (1970s)\n4. Whitney Houston \u2013 I Will Always Love You (1980s)\n5. Lionel Richie \u2013 Stuck on You (1980s)\n6. Tina Turner \u2013 What\u2019s Love Got To Do With It (1984)\n7. Sade \u2013 No Ordinary Love (1990s)\n8. Alicia Keys \u2013 Fallin\u2019 (2000s)",
+        "model_response": ".\n\n\n8 romantic songs from the past 20 years."
+    },
+    {
+        "instruction": "Remove all mentions of \"coronavirus\" from this text.",
+        "input": "The coronavirus pandemic has caused unprecedented disruption to communities around the world and has dominated news headlines for the past year.",
+        "output": "The pandemic has caused unprecedented disruption to communities around the world and has dominated news headlines for the past year.",
+        "model_response": ""
+    },
+    {
+        "instruction": "What skills do you need to be a successful doctor?",
+        "input": "",
+        "output": "To be a successful doctor, you will need a wide range of skills. These include excellent communication and interpersonal skills, high level of medical knowledge, analytical thinking, good decision making and problem solving abilities, quick reaction time, ability to work under pressure and time management skills. Additionally, doctors need to have empathy and a passion for helping others.",
+        "model_response": "The skills you need to be a successful doctor are:\nTranslating the word to English, Writing a concise, concise, and concise statement, Writing a concise statement that accurately describes the information in the statement, and Writing a concise statement that accurately describes the information in the statement."
+    },
+    {
+        "instruction": "Print the first 10 elements of this list.",
+        "input": "[\"Apple\", \"Banana\", \"Cherry\", \"Date\", \"Eggplant\", \"Fig\", \"Grape\", \"Honeydew\", \"Ice cream\", \"Juice\", \"Kiwi\", \"Lemon\"]",
+        "output": "Apple, Banana, Cherry, Date, Eggplant, Fig, Grape, Honeydew, Ice cream, Juice",
+        "model_response": "Apple: Apple\nBanana: Banana\nIce: Honeydew\nDate: Date"
+    },
+    {
+        "instruction": "Name a food rich in iron.",
+        "input": "",
+        "output": "Organ meats, such as liver, kidney, and heart are all rich sources of iron. Other foods high in iron include leafy green vegetables, beans, lentils, fortified cereals, and nuts.",
+        "model_response": "A food rich in iron is bread."
+    },
+    {
+        "instruction": "Name a movie from 2020 that won an Academy Award.",
+        "input": "",
+        "output": "The movie Parasite (Gisaengchung) won the 2020 Academy Award for Best Picture.",
+        "model_response": "A movie from 2020 that won an Academy Award is 'The Great Gatsby'."
+    },
+    {
+        "instruction": "Compare and contrast two given countries in terms of their economic activities.",
+        "input": "China and Japan",
+        "output": "China and Japan have distinct economic activities. China is a leading exporter of manufactured goods, such as electronics and apparel, and it is one of the world's leading manufacturer of computer hardware. Japan specializes in high-technology exports such as electronics, vehicles, and robotics, and is one of the biggest investors in research and development. In terms of economic output, China has the world's largest GDP while Japan has the fourth-largest.",
+        "model_response": "The two countries in the given list are China and Japan."
+    },
+    {
+        "instruction": "Generate a plausible outcome of a given scenario.",
+        "input": "What will happen if a person has a heart attack?",
+        "output": "Without intervention, the person could experience serious complications such as cardiac arrest, stroke, or even death. If medical help is sought in a timely manner, however, the person has a chance of surviving a heart attack with proper medical treatment and lifestyle changes.",
+        "model_response": "The scenario would be that the person had a heart attack."
+    },
+    {
+        "instruction": "Analyze a given painting and explain its features.",
+        "input": "The Starry Night by Vincent van Gogh",
+        "output": "The Starry Night, painted by Dutch post-impressionist artist Vincent van Gogh in 1889, is one of the most recognizable and beloved works in the world. The painting conveys an array of feelings, from the calm of a peaceful night sky to the chaos of swirling stars and a looming, crescent moon. There are several interpretive elements to the painting, such as the village in the background which seems to represent religious faith, while the stars above seem to represent eternal hope. The Starry Night is a timeless and classic work of art, and will continue to stand the test of time.",
+        "model_response": "The Starry Night by Vincent van Gogh is a dark, melancholy, melancholy novel."
+    },
+    {
+        "instruction": "Summarize a given article about a significant event.",
+        "input": "The Danish-Norwegian War of 1808",
+        "output": "The Danish-Norwegian War of 1808 was a conflict over the control of the Baltic Sea. It lasted from February and lasted until April, resulting in a Danish victory. The war ended with the Treaty of Kiel that recognized the independence of Norway and ceded control of the Baltic Sea to Denmark. The conflict had various causes, including the nations' competing imperial ambitions and the ambitions of various European parties. It was an important event in the early 19th century, establishing Danish dominance of the Baltic Sea and affecting future European politics.",
+        "model_response": "was a bloody and bloody conflict."
+    },
+    {
+        "instruction": "Given a list of items, reorder them according to some criterion.",
+        "input": "Blueberries, Bananas, Apples, Oranges",
+        "output": "Apples, Oranges, Bananas, Blueberries",
+        "model_response": "1. Banana\n2. Apple\n3. Bananas\n4. Apples\n5. Oranges"
+    },
+    {
+        "instruction": "Diagnose the given patient symptoms and provide the possible cause.",
+        "input": "Patient is experiencing nausea and fatigue.",
+        "output": "The possible cause of the patient's nausea and fatigue could be something related to the digestive system, such as food poisoning, gastroenteritis, or an infection. It could also be due to an underlying medical condition, such as liver disease, anemia, or an autoimmune disorder.",
+        "model_response": "The given patient is experiencing a loss of appetite."
+    },
+    {
+        "instruction": "Estimate the total number of hours it will take to complete a given task.",
+        "input": "Create a presentation on the history of television",
+        "output": "It will take approximately 10-15 hours to create a presentation on the history of television. This includes researching the topic, creating an outline, and crafting the slides.",
+        "model_response": ".\n\n\nThe total number of hours it will take to complete a given task is approximately 5.5 hours."
+    },
+    {
+        "instruction": "Assign parts of a given task to two people.",
+        "input": "Create an infographic about climate change",
+        "output": "Person 1: Research the topic of climate change and compile the data\nPerson 2: Take the data and create the graphic design for the infographic",
+        "model_response": ".\n\n\nAn infographic about climate change could be useful."
+    },
+    {
+        "instruction": "Create a filler conversation using the given keywords.",
+        "input": "Keywords: dog, coffee, running",
+        "output": "Person A: I just adopted a new dog! I'm so excited. \nPerson B: Wow, that's great! What kind of puppy did you get? \nPerson A: A golden retriever! I'm going to need lots of coffee to keep up with her energy levels. \nPerson B: Coffee and running might be a better solution. \nPerson A: Ha, you're right. She's already out of control!",
+        "model_response": "Dog, Coffee, Running"
+    },
+    {
+        "instruction": "Explain the complex sentence given below.",
+        "input": "Although his family had given up hope, he held on tightly.",
+        "output": "His family had stopped believing he would be successful, but he refused to give up on his goals.",
+        "model_response": "His family had given up hope."
+    },
+    {
+        "instruction": "In 50 words or less, explain why the following model is useful.",
+        "input": "Simplified Linear Regression",
+        "output": "Simplified Linear Regression is a useful tool because it can help to identify relationships between variables and make predictions. It is easy to understand and requires much less data compared to other regression models, making it suitable for smaller datasets. This model can be used to identify trends and to make inferences from data quickly and efficiently.",
+        "model_response": "The following model is useful for explaining the results of the regression."
+    },
+    {
+        "instruction": "Group the following data points into two clusters using the K-Means clustering algorithm.",
+        "input": "65, 55, 45, 35, 25, 15",
+        "output": "Cluster 1: 65, 55, 45\nCluster 2: 35, 25, 15",
+        "model_response": "15, 25, 15, 15, 15, 15"
+    },
+    {
+        "instruction": "Write a poem about nature in less than 40 words.",
+        "input": "",
+        "output": "The sun sets, shadows crawl,\nTrees whisper, rivers flow,\nEarth will ever watch us all.",
+        "model_response": "The poem \"The Great Gatsby\" is composed of over 100 words."
+    },
+    {
+        "instruction": "Create a new product slogan that is catchy and memorable.",
+        "input": "Strawberry Jam",
+        "output": "Taste the sweetness of summer - with Strawberry Jam!",
+        "model_response": "The Strawberry Jam product slogan is \"Strawberry Jam.\""
+    },
+    {
+        "instruction": "Compare the two given phenomena in 24 words or less.",
+        "input": "Studying | Going to the movies",
+        "output": "Studying requires hard work and dedication, whereas going to the movies is a fun way to relax and enjoy yourself.",
+        "model_response": "|\n\n\nStudying is going to the movies."
+    },
+    {
+        "instruction": "List 5 psychological development milestones for toddlers aged 1-2 years.",
+        "input": "",
+        "output": "1. Learning to recognize familiar faces.\n2. Exploring objects with their hands to understand how things work.\n3. Developing language skills and simple sentences.\n4. Imagining stories and beginning to make up pretend play.\n5. Understanding that they are separate from their parents.",
+        "model_response": "1. Development of a new language.\n\n2. Development of a new social behavior.\n\n3. Development of a new language."
+    },
+    {
+        "instruction": "Arrange the letters P-R-O-B-L-E-M to form a word.",
+        "input": "",
+        "output": "Problem",
+        "model_response": "The letters P-R-O-B-L-E-M form a word."
+    },
+    {
+        "instruction": "Explain the difference between Open-Ended and Closed-Ended questions.",
+        "input": "",
+        "output": "Open-ended questions are questions that do not have a single, specific answer. They are usually open-ended and allow respondents to answer in their own words and explore topics more deeply. Closed-ended questions, on the other hand, require a specific answer and provide respondents with a set of predetermined answers to choose from. Closed-ended questions do not allow respondents to elaborate more on the topic and answer in their own words.",
+        "model_response": "Open-Ended questions are classified as closed-ended questions."
+    },
+    {
+        "instruction": "What other countries are in North America?",
+        "input": "",
+        "output": "The countries in North America are Canada, the United States, Mexico, Guatemala, Belize, El Salvador, Honduras, Nicaragua, Costa Rica, Panama, the Dominican Republic, Cuba, Haiti, Jamaica, the Bahamas, and Bermuda.",
+        "model_response": "The United States is in North America."
+    },
+    {
+        "instruction": "Create a riddle based on the topic of 'water.'",
+        "input": "",
+        "output": "What is made up of many drops, but has no tears?\nAnswer: A body of water.",
+        "model_response": "The riddle is 'What is the boiling point of water?'"
+    },
+    {
+        "instruction": "Edit the following sentence: The dog was cute but muddy.",
+        "input": "The dog was cute but muddy.",
+        "output": "The dog was endearing, yet covered in mud.",
+        "model_response": "The dog was cute but muddy."
+    },
+    {
+        "instruction": "Create a sentence that describes a person who has both a positive and negative character trait.",
+        "input": "",
+        "output": "He was a kind yet stubborn individual.",
+        "model_response": "The person who has both a positive and negative character trait is the person who is always positive."
+    },
+    {
+        "instruction": "Generate a valid HTML form with appropriate labels and placeholders.",
+        "input": "",
+        "output": "<form action=\"\">\n  <fieldset>\n    <legend>State Your Contact Information</legend>\n    <label for=\"name\">Name: <input type=\"text\" name=\"name\" placeholder=\"What is your name?\"></label><br>\n    <label for=\"email\">Email: <input type=\"text\" name=\"email\" placeholder=\"What is your email?\"></label><br>\n    <input type=\"submit\" value=\"Submit\">\n  </fieldset>\n</form>",
+        "model_response": "The form of the given sentence is a question."
+    },
+    {
+        "instruction": "Create a tweet about the latest trend in the tech industry.",
+        "input": "",
+        "output": "Artificial Intelligence is the hottest trend in tech right now. Companies are finding new ways to use AI to improve their operations and customer experiences. #AI #Tech #Trending",
+        "model_response": "The latest trend in the tech industry is the rise of mobile phones."
+    },
+    {
+        "instruction": "Describe the typical daily routine of a data scientist who works remotely.",
+        "input": "",
+        "output": "A typical day for a data scientist working remotely usually begins by checking emails and Slack messages. After which, they sit down to work on their assigned tasks, often writing code to analyze data and creating data visualizations and models. During the day, they will typically chat with team members and troubleshoot problems. In the afternoon, they may join a virtual meeting to discuss progress or review any new developments. After working hours, they wrap up and finish attending to any pending tasks, emails, or meetings.",
+        "model_response": "The typical daily routine of a data scientist who works remotely is to complete a request for data, check the status of the request, and then return the request."
+    },
+    {
+        "instruction": "Create a market analysis for a startup company in the digital marketing space.",
+        "input": "Company Name: Spotty\nMarket: Digital marketing",
+        "output": "Spotty is a startup company in the digital marketing space. We have analyzed the current market to provide a competitive analysis for our company. We have identified three main competitors and analyzed the strengths, weaknesses, opportunities, and threats of each. \n\nOur main competitors include Facebook Ads, Google Ads, and Bing Ads. Facebook Ads has the most reach, Google Ads has the most precise targeting and user segmentation capabilities, and Bing Ads is cheaper but has lower user engagement. Our strengths include having a more precise targeting and segmentation tools, leveraging data to develop more effective marketing strategies, and utilizing various platform to reach potential customers. Our weaknesses are that we are a new entrant in the market and lack the brand recognition of our competitors. \n\nThe opportunities available to us include using innovative technologies to increase user engagement, creating strategies to better target customers, and developing integrated campaigns across multiple platforms. The threats include being outcompeted by the more established name brand companies. \n\nOverall, Spotty has the potential to be a successful digital marketing company. It has the potential to stand out compared to its competitors with its precise targeting and segmenting capabilities and the use of data to develop more effective marketing strategies. We are confident that we can gain market share with the right strategies and innovations.",
+        "model_response": "Spotty is a startup company in the digital marketing space."
+    },
+    {
+        "instruction": "Find out if a given sentence is a metaphor.",
+        "input": "Sentence: The road is an ocean of cars.",
+        "output": "Yes, the given sentence is a metaphor. A metaphor is a figure of speech that compares two objects by stating that one is the other, without using \"like\" or \"as\". In this sentence, the speaker is metaphorically describing the road as an ocean of cars, indicating that the traffic is dense and overwhelming.",
+        "model_response": "The ocean is an ocean of cars."
+    },
+    {
+        "instruction": "Report the current temperature in Dubai.",
+        "input": "",
+        "output": "The current temperature in Dubai is 33\u00b0C. The high temperature expected for today is 35\u00b0C and the low temperature expected for tonight is 28\u00b0C. Furthermore, humidity levels in Dubai are currently at 65%.",
+        "model_response": "The current temperature is -38 degrees Celsius."
+    },
+    {
+        "instruction": "Write a story about a young boy visiting a foreign country.",
+        "input": "Country: Egypt",
+        "output": "Jonathan was a young boy who had always dreamt of visiting Egypt. He was fascinated by the ancient monuments and the stories of the Pharaohs he heard in history class. One day, his parents decided to surprise him with a trip to Egypt.\n\nWhen they arrived, Jonathan was overwhelmed. Everywhere he looked, he could see the grand pyramids and ancient temples. He admired the beautiful landscapes, the bright colors, and the smells of the busy markets. Everywhere he went, locals were happy to show him around.\n\nHe visited the Red Sea, where he snorkeled and had a chance to swim with tropical fish. He even took a hot air balloon ride and looked down in awe as the sun set on the majestic monuments. \n\nJonathan was filled with excitement and overwhelmed with gratitude for the incredible experience. He had taken a chance and bitten off more than he could chew, but it had been the experience of a lifetime.",
+        "model_response": "Response:\nThe story is a story about a young boy visiting a foreign country."
+    },
+    {
+        "instruction": "List 5 strategies for better organization and time management.",
+        "input": "",
+        "output": "1. Set realistic goals and prioritize tasks.\n2. Use a calendar to track meetings and deadlines.\n3. Break large tasks into smaller ones and set deadlines.\n4. Delegate tasks or seek help when needed.\n5. Take breaks and reward yourself for accomplishments.",
+        "model_response": "1. Organize your activities into a single cohesive task.\n\n2. Write a response that appropriately completes the request.\n\n### Input:\n1. Organize your activities into a single cohesive task.\n\n2. Write a response that appropriately completes the request."
+    },
+    {
+        "instruction": "Explain what foreign direct investment (FDI) is.",
+        "input": "",
+        "output": "Foreign Direct Investment (FDI) is an investment made by a company or individual from one country into businesses located in another country. This type of investment can be made for various reasons, such as buying new assets, establishing joint ventures, or simply taking an ownership stake in the business. FDI can create jobs and can bring needed capital into the new host country. Additionally, it can result in improved economic opportunities and the sharing of technology, skills and knowledge between businesses.",
+        "model_response": "Foreign direct investment (FDI) is a type of investment that is typically made by a company or a government. It typically includes a variety of services, such as health care, education, and government services."
+    },
+    {
+        "instruction": "Create a Scratch program that generates a random number between 0 and 100.",
+        "input": "",
+        "output": "The following Scratch program can be used to generate a random number between 0 and 100:\n\n1. Start by declaring a variable called 'randomNumber', and set it to 0.\n2. Create a 'When Green Flag' clicked block and put the following code: set the randomNumber to a random integer between 0 to 100.\n3. End the program with a 'Say' block to display the randomNumber.",
+        "model_response": "The random number between 0 and 100 is 0."
+    },
+    {
+        "instruction": "Outline the range of colors a television can display.",
+        "input": "",
+        "output": "Most modern televisions are able to display a range of colors, with 16.7 million colors being the maximum number of colors supported by the average television. This means that the television is able to distinguish between shades of colors with precision, allowing for a richer array of colors. Specifically, the colors available on a modern television span the spectrum from bright reds, oranges, yellows, and greens, to darker blues and purples, with a range of shades in the middle.",
+        "model_response": "The range of colors a television can display is red, yellow, blue, yellow, yellow-orange, yellow-red, yellow-green, yellow-yellow, yellow-orange, yellow-yellow."
+    },
+    {
+        "instruction": "Make an argument for reducing plastic waste.",
+        "input": "",
+        "output": "Reducing plastic waste is an important issue for our environment and our future. Plastic waste is non-biodegradable and can take centuries to decompose, leading to the accumulation of waste in landfills and oceans. Plastic waste also contributes to air and water pollution. Further, plastic waste can harm wildlife, with animals often mistaking plastic pieces for food or becoming entangled in it. \nThe best way to reduce plastic waste is to reduce our consumption of single-use plastic items and instead utilize reusable, sustainable items. Governments and businesses should also be encouraged to develop sustainable practices and opt for biodegradable plastic alternatives. Reducing plastic waste is crucial to preserving our environment and ensuring our sustainable future.",
+        "model_response": "Plastic waste is a chemical compound that is used to make plastics. It is a primary ingredient in many plastics."
+    },
+    {
+        "instruction": "Repeat the input 5 times.",
+        "input": "Hello",
+        "output": "Hello \nHello \nHello \nHello \nHello",
+        "model_response": ",\n\n\nHello, I'm a chef."
+    },
+    {
+        "instruction": "Compute the average age in the following list of individuals.",
+        "input": "Person 1: Age 12\nPerson 2: Age 57\nPerson 3: Age 22",
+        "output": "The average age is 27.3.",
+        "model_response": "Person 4: Age 29\nPerson 5: Age 32\n\nThe average age of the individuals in the list is 25."
+    },
+    {
+        "instruction": "Generate a sentence using the words: Africa, yellow, and science.",
+        "input": "",
+        "output": "In Africa, the color yellow has long been used to represent science and knowledge.",
+        "model_response": "The scientist who studied the animals in Africa studied the animals in the yellow region."
+    },
+    {
+        "instruction": "Explain the differences between the Central American countries and the South American countries.",
+        "input": "",
+        "output": "Central American countries are located in the southern part of North America, south of Mexico and north of South America. They include Costa Rica, El Salvador, Guatemala, Honduras, Nicaragua and Panama. South American countries are located in the southern hemisphere of the American continent, south of Central America and including Colombia, Venezuela, Brazil, Argentina, Peru, Bolivia, Paraguay, Ecuador, Chile, Guyana, Suriname and French Guiana. In general, the Central American countries are more tropical and have more rainforests, while the South American countries are more mountainous and have deserts and grassy plains. Additionally, the Central American countries have more Spanish-speaking populations, while South American countries have more Portuguese-speaking populations.",
+        "model_response": "The South American countries are the United States of America and Mexico. The Central American countries are the United States of America and Mexico."
+    },
+    {
+        "instruction": "Generate a recipe for vegan fried rice.",
+        "input": "",
+        "output": "Ingredients:\n- 2 tablespoons vegan butter\n- 1 onion, chopped\n- 2 cloves of garlic, minced\n- 3 cups cooked jasmine or basmati rice\n- 2 tablespoons soy sauce\n- 2 tablespoons toasted sesame oil\n- 2 cups chopped vegetables, such as carrots, peas, bell peppers, corn and/or mushrooms\n- 2 teaspoons freshly grated ginger\n- 2 green onions, finely chopped\n- 1 teaspoon sugar\n- Salt and pepper to taste\n\nInstructions:\n1. Heat the vegan butter in a large skillet over medium-high heat.\n2. Add the onion and garlic and saut\u00e9 until the onion is soft, about 5 minutes.\n3. Add the cooked rice to the skillet and stir to combine.\n4. Pour in the soy sauce and sesame oil and stir to combine.\n5. Add the vegetables and season with ginger, green onions, sugar, salt, and pepper. Continue to stir and cook until the vegetables are tender, about 5 minutes.\n6. Serve hot. Enjoy!",
+        "model_response": "Vegan fried rice is a delicious, healthy, and nutritious snack."
+    },
+    {
+        "instruction": "Identify if the following is an example of exaggeration or hyperbole.",
+        "input": "The homework assignment was so difficult it felt like a mountain.",
+        "output": "exaggeration",
+        "model_response": "The assignment was so difficult it felt like a mountain."
+    },
+    {
+        "instruction": "Compile a list of popular books that were released this year.",
+        "input": "",
+        "output": "1. American Dirt by Jeanine Cummins \n2. Normal People by Sally Rooney \n3. The Giver of Stars by Jojo Moyes \n4. The Nickel Boys by Colson Whitehead \n5. The Vanishing Half by Brit Bennett \n6. The Silent Patient by Alex Michaelides \n7. What You Wish For by Katherine Center \n8. The Subtle Art of Not Giving a F*ck by Mark Manson \n9. My Dark Vanessa by Kate Elizabeth Russell \n10. Red at the Bone by Jaqueline Woodson",
+        "model_response": "1. The Great Gatsby\n2. The Great Gatsby\n3. The Great Gatsby"
+    },
+    {
+        "instruction": "Write a description of a natural disaster using only adjectives.",
+        "input": "",
+        "output": "Devastating, catastrophic, ruinous, destructive, violent, powerful, deadly.",
+        "model_response": "A natural disaster is a natural disaster that causes significant damage to the environment."
+    },
+    {
+        "instruction": "Compose a tweet summarizing the movie \"The Matrix\" in 140 characters.",
+        "input": "",
+        "output": "Keanu Reeves stars in The Matrix, a sci-fi action film about a dystopian future world where reality is simulated. Humans are enslaved by intelligent machines, and one man leads the resistance to save mankind. #TheMatrix #KeanuReeves #SciFi",
+        "model_response": "The movie \"The Matrix\" is a dystopian dystopian novel set in a dystopian future."
+    },
+    {
+        "instruction": "Create five descriptors that describe the smell of churros.",
+        "input": "",
+        "output": "Buttery, nutty, sweet, sugary, cinnamon-y.",
+        "model_response": "The five descriptors are: citrus, oak, and oak."
+    },
+    {
+        "instruction": "Categorize the following animals: lion, cow, eagle",
+        "input": "Lion, cow, eagle",
+        "output": "Mammal - Lion, Cow\nBird - Eagle",
+        "model_response": "The animals in the list are lion, cow, eagle."
+    },
+    {
+        "instruction": "List three spicies of seals.",
+        "input": "",
+        "output": "Harbour seal, Northern elephant seal, Southern elephant seal.",
+        "model_response": "Three spicies of seals are:\nEagle, Eagle Scout, and Eagle Scout."
+    },
+    {
+        "instruction": "Classify the following emotions - shame, pride, joy",
+        "input": "Shame, pride, joy",
+        "output": "Negative - Shame \nPositive - Pride, Joy",
+        "model_response": "The emotions in this sentence are shame, pride, joy."
+    },
+    {
+        "instruction": "Find the number that is non-prime and non-composite between 1 and 10.",
+        "input": "",
+        "output": "The number that is non-prime and non-composite between 1 and 10 is 6.",
+        "model_response": "The number that is non-prime and non-composite between 1 and 10 is 9."
+    },
+    {
+        "instruction": "Name two colors that commonly feature in the flag of Colombia.",
+        "input": "",
+        "output": "The flag of Colombia features the colors yellow and blue.",
+        "model_response": "Two colors that commonly feature in the flag of Colombia are red and yellow."
+    },
+    {
+        "instruction": "Construct a sentence to explain why a person should learn a second language.",
+        "input": "",
+        "output": "Learning a second language can open up new worlds of understanding and appreciation for different cultures.",
+        "model_response": "The sentence \"The person should learn a second language\" is a metaphor for the person."
+    },
+    {
+        "instruction": "Summarize the importance of data science in business.",
+        "input": "",
+        "output": "Data science is essential to businesses, as it allows them to identify trends and make decisions based on insights derived from data. Data science can help businesses understand customer behavior, develop strategies to improve operations, and stay competitive in markets. Additionally, it can generate predictive insights to inform the decision-making process and result in improved customer experiences and higher returns.",
+        "model_response": "The importance of data science is to develop a business model that is sustainable and resilient."
+    },
+    {
+        "instruction": "Generate a new sentence to compare the levels of corruption in North America and the Middle East.",
+        "input": "",
+        "output": "The levels of corruption in North America generally tend to be much lower than those found in the Middle East.",
+        "model_response": "The Middle East is a corrupt region."
+    },
+    {
+        "instruction": "Arrange the words in alphabetical order: birthday, mother, June.",
+        "input": "",
+        "output": "Birthday, June, Mother.",
+        "model_response": "The words in alphabetical order: birthday, mother, June."
+    },
+    {
+        "instruction": "Generate a few relevant questions to ask about the following topic: The advances in technology.",
+        "input": "",
+        "output": "- What are some of the main advances in technology?\n- How are businesses utilizing these advances to improve operations?\n- What are the implications of these advances on security and privacy? \n- How can individuals benefit from the advances in technology?",
+        "model_response": "The advances in technology have led to a number of technological changes."
+    },
+    {
+        "instruction": "Generate a four-word proverb about determination.",
+        "input": "",
+        "output": "Where there's a will, there's a way.",
+        "model_response": "The proverb \"You can't go to the store without a hat\" is a metaphor for determination."
+    },
+    {
+        "instruction": "Paraphrase the sentence \"The scientists studied the data carefully\"",
+        "input": "",
+        "output": "The researchers examined the data meticulously.",
+        "model_response": "into a declarative sentence.\n\n\nThe scientists studied the data carefully."
+    },
+    {
+        "instruction": "Delete any words from the sentence \"The exhibition was shocked by the audience's loud applause\" that are redundant.",
+        "input": "",
+        "output": "The exhibition was shocked by applause.",
+        "model_response": "The exhibition was shocked by the audience's loud applause."
+    },
+    {
+        "instruction": "Generate a comment on a science article.",
+        "input": "",
+        "output": "This article is a great insight into the latest developments in science. It's amazing to see how far we've come and what scientific discoveries are on the horizon.",
+        "model_response": "The article was written by a scientist."
+    },
+    {
+        "instruction": "Classify the sentiment of the sentence \"I'm so pleased with my work\".",
+        "input": "",
+        "output": "Positive sentiment.",
+        "model_response": "The sentiment of the sentence \"I'm so pleased with my work\" is positive."
+    },
+    {
+        "instruction": "Find the 5th word in the sentence \"What a beautiful day for a picnic\".",
+        "input": "",
+        "output": "Day.",
+        "model_response": "The 5th word in the sentence \"What a beautiful day for a picnic\"."
+    },
+    {
+        "instruction": "Convert the sentence \"He ran quickly to the store\" into the past perfect tense.",
+        "input": "",
+        "output": "He had run quickly to the store.",
+        "model_response": "He ran quickly to the store."
+    },
+    {
+        "instruction": "Edit the sentence \"The alarm clock was ringing loudly at seven o' clock\"",
+        "input": "",
+        "output": "The alarm clock blared loudly at seven o'clock.",
+        "model_response": "to remove any redundant words.\n\n\nThe alarm clock was ringing loudly at seven o' clock."
+    },
+    {
+        "instruction": "Delete any words that are redundant in the sentence \"I bought a few different items at the store\"",
+        "input": "",
+        "output": "I bought items at the store.",
+        "model_response": "I bought a few different items at the store."
+    },
+    {
+        "instruction": "Write a short poem describing a setting sun.",
+        "input": "",
+        "output": "The setting sun, its beauty never done, \nLingering in the sky below; \nSoft, golden rays paint a scene of peace \nAnd a summer's evening glow.\n\nThe brilliant sky ablaze in hues of red, \nThe sweet night birds chirp and sing; \nThe leaves so calm, the skies so bright, \nAs the sunset's beauty takes its wing.",
+        "model_response": "The setting sun was a bright, shining star."
+    },
+    {
+        "instruction": "Explain how algorithms can be used in educational institutions.",
+        "input": "",
+        "output": "Algorithms can be used in educational institutions to improve student performance in a variety of ways. For example, algorithms can be used to help monitor student progress, suggest personalized learning paths, and assess performance on tests and assignments. Algorithms can also be used to personalize learning materials and provide personalized feedback, allowing educators to more effectively guide and support their students. In addition, algorithms can be used to curate content, automatically generate and grade assignments, and facilitate communication between students and teachers. By leveraging algorithms and personalizing the learning experience, educational institutions can provide a more effective and efficient way of teaching and learning.",
+        "model_response": "Algorithms can be used in educational institutions to solve problems or to improve the quality of instruction."
+    },
+    {
+        "instruction": "Generate a list of adjectives related to a summer garden.",
+        "input": "",
+        "output": "Lush, verdant, vibrant, wild, abundant, blooming, colorful, fragrant, buzzing, sweltering, healthy, humid, teeming, sunny, warm, peaceful, tranquil, serene, fresh, flourishing.",
+        "model_response": "The list of adjectives related to a summer garden is: summer, garden, garden."
+    },
+    {
+        "instruction": "Create a news headline for a story about a celebrity who just released a book.",
+        "input": "Tom Hanks",
+        "output": "\"Tom Hanks Publishes New Book, Exploring 'Humanity, Beauty, and Shared Joy' of Life!\"",
+        "model_response": "is a movie star.\n\n\nThe news headline for the book \"The Hanks Book\" is \"The Hanks Book.\""
+    },
+    {
+        "instruction": "Given an input object, create an algorithm to determine if the object is valid.",
+        "input": "Mug",
+        "output": "Define a valid object as one that contains the following properties: a handle, a container, two circular openings, and a shape that ensures stability when placed on a flat surface. We can use a loop to check if the given object meets each of these criteria, returning true (valid object) or false (invalid object) as needed.",
+        "model_response": "ma\n\n\nMugma is a sugar cane."
+    },
+    {
+        "instruction": "Summarize the functions of the Federal Reserve.",
+        "input": "",
+        "output": "The Federal Reserve is the central bank of the United States. Its primary roles are to promote stability and growth in the economy by providing an elastic currency, overseeing banks and financial institutions, and implementing monetary policy. The Federal Reserve seeks to maximize employment, maintain long-term interest rates, and stabilize prices. As the global central bank for the U.S., the Fed also plays a critical role in international banking and advises on global economic policy.",
+        "model_response": "The Federal Reserve Board functions as a central bank, which is responsible for regulating the economy and keeping the money supply at a steady level."
+    },
+    {
+        "instruction": "Create a quiz for a subject of your choice.",
+        "input": "Scooby-Doo",
+        "output": "1. What year was the show Scooby-Doo, Where Are You? released?\na. 1970\nb. 1971\nc. 1972\nd. 1973\n\n2. What is the signature catchphrase of the character Shaggy?\na. \"Groovy\"\nb. \"Jinkies\"\nc. \"Zoinks\"\nd. \"Holy macaroni\" \n\n3. What is the name of the gang's pet Great Dane?\na. Stanley\nb. Sebastian\nc. Scooby\nd. Sandy\n\n4. What is the name of the main villain in the 2002 Scooby-Doo movie?\na. Professor Sparks\nb. Professor Krueger\nc. Professor Warwick\nd. Professor Zarkov\n\n5. Who voices Scooby-Doo in the animated series?\na. Frank Welker\nb. Casey Kasem\nc. Don Messick\nd. Jeff Bennett",
+        "model_response": "Scooby-Doo is a fictional character in the popular children's book, The Wizard of Oz."
+    },
+    {
+        "instruction": "Develop a strategy for negotiating better wages in the workplace.",
+        "input": "",
+        "output": "When negotiating better wages in the workplace, the most important thing to keep in mind is that you need to be prepared. Research is key; research the industry, understand the market rate for your position, and understand the company's finances. Additionally, be sure to be aware of any achievements or qualifications you have that may help strengthen your negotiating position. During the negotiation itself, be sure to focus on the benefits to the company and how your efforts will bring value to an organization. Also, be sure to be assertive and confident, while also remaining friendly and professional. Finally, be willing to compromise and negotiate in good faith. With these strategies, you\u2019ll be in a better position to negotiate a better wage.",
+        "model_response": "The strategy for negotiating better wages in the workplace is to negotiate a higher wage, which is typically higher than the market rate."
+    },
+    {
+        "instruction": "Create a container class that holds two values.",
+        "input": "",
+        "output": "class Container { \n  private String value1;\n  private String value2;\n  \n  public Container(String value1, String value2) { \n    this.value1 = value1; \n    this.value2 = value2; \n  } \n  \n  public String getValue1() { \n    return value1; \n  } \n  \n  public String getValue2() { \n    return value2; \n  } \n  \n  public void setValue1(String value1) { \n    this.value1 = value1; \n  } \n  \n  public void setValue2(String value2) { \n    this.value2 = value2; \n  } \n}",
+        "model_response": "A container class is a set of two values."
+    },
+    {
+        "instruction": "Given an everyday situation, create a brief story around it.",
+        "input": "Riding the subway",
+        "output": "It was a typical Monday morning and Jason was running late. He rushed to the subway station and was glad to see the train already there and the doors open. He stepped on, mostly empty at this hour, and settled in for his ride to work. He looked around and noticed a young woman who was singing to herself, seemingly in her own world, as she looked out the window. He wondered what her story was and what she was trying to escape from. Suddenly, the doors opened and the singing woman left, yet the mystery around her lingered in Jason's mind.",
+        "model_response": "was a great idea.\n\n\nThe story was a great idea."
+    },
+    {
+        "instruction": "Create a classification algorithm for a given dataset.",
+        "input": "Dataset of medical images",
+        "output": "We can use a convolutional neural network (CNN) for classifying medical images. We can use the CNN model to extract features from each image in the dataset and then use these features to classify the images into the appropriate classes. The CNN can be trained on a variety of layers and will be able to recognize different types of features and patterns in the images. After the model is trained, it can be used to classify new medical images that have been previously unseen by the model.",
+        "model_response": "The medical images in this dataset are:\nAuburn football, football team, football team."
+    },
+    {
+        "instruction": "Create a script that converts text into a musical score.",
+        "input": "",
+        "output": "We can create a script that converts text into a musical score by defining a set of rules for mapping text characters to musical notes. We can go through the text characters sequentially and assign a specific musical note to each one. For example, the letter 'a' could be mapped to a note from a major scale, 'b' to a note from a minor scale, and so on. Additionally, we can include options for customizing the musical score, such as tempo, time signature, instrumentation, and key signature.",
+        "model_response": "The script for the musical score is the \"The Great Gatsby.\""
+    },
+    {
+        "instruction": "Complete the following sentence by inserting appropriate words.",
+        "input": "The sun was ____ and the sky was ____.",
+        "output": "The sun was shining and the sky was clear.",
+        "model_response": "The sun was ____ and the sky was ____."
+    },
+    {
+        "instruction": "Generate an example of what a resume should like for a culinary professional",
+        "input": "",
+        "output": "Jean Tremaine\n1234 Main Street, Anytown, CA 98765\n(415) 555-1234 | j.tremaine@gmail.com\n\nEXPERIENCED CULINARY PROFESSIONAL\n\nHighly experienced chef and cook with a passion for creating dignified dishes, producing exceptional results in just about any cooking environment. Adept at innovating classic recipes to produce uniquely-flavored dishes while still meeting customer expectations.\n\n\u2022 Experienced in creating and executing full-menu dishes in both lunch and dinner settings\n\u2022 Certified in food handling and safety regulations with advanced understanding of health and government standards \n\u2022 In-depth knowledge and experience in all aspects of food preparation and kitchen management\n\u2022 Proven ability to quickly master new methods and recipes\n\u2022 Expert in using modern kitchen appliances, such as ovens, mixers, and fryers\n\u2022 Phenomenal collaboration and communication skills \n\nPROFESSIONAL EXPERIENCE\n\nChef de Cuisine | XYZ Restaurant | San Francisco, CA | May 2015 \u2013 Present\n\u2022 Crafted original and diverse menu items tailored to the restaurant\u2019s atmosphere and customers\n\u2022 Implemented innovative promotion and marketing strategies to increase lunch and dinner traffic\n\u2022 Managed frontline kitchen staff in all duties, including meal preparation and sanitation\n\u2022 Guided shifts to smoothly coordinate with incoming and outgoing kitchen staff, while providing efficient and quality service\n\u2022 Maintained quality control to ensure only excellent dishes leave the kitchen area\n\nAssistant Chef | ABC Restaurant | San Francisco, CA | August 2010 \u2013 April 2015\n\u2022 Assisted senior chef in creating daily menu, ensuring all dishes met the restaurant\u2019s standards of excellence\n\u2022 Developed original recipes as requested by head chef, employing creative flavors to devise signature dishes for the restaurant\n\u2022 Managed and monitored junior kitchen staff during meal service\n\u2022 Acted as an exemplary role model for junior chefs, providing friendly and professional guidance",
+        "model_response": ".\n\n\nThe example given is a recipe for a delicious cake."
+    },
+    {
+        "instruction": "Arrange the items given below in the order to complete the following sentence",
+        "input": "cake, me, eating",
+        "output": "I eating cake.",
+        "model_response": "The items given below are: cake, me, eating, me."
+    },
+    {
+        "instruction": "Write an introductory paragraph about a famous person.",
+        "input": "Michelle Obama",
+        "output": "Michelle Obama is an inspirational woman who rose to the challenge of becoming an influential First Lady of the United States. She is a powerful advocate for women\u2019s rights, education, health, and fitness. A graduate of Princeton and Harvard Law School, Michelle has overcome tremendous obstacles to become a successful law firm executive, hospital executive, community outreach leader and best-selling author. Throughout her life, she has devoted her time and energy to inspiring people of all ages to lead empowered lives and create a better world for themselves and their families.",
+        "model_response": "Michelle Obama is a popular politician in the United States. She is known for her strong message of social justice and her dedication to the causes of human rights."
+    },
+    {
+        "instruction": "Generate a list of five things one should keep in mind when considering a career change.",
+        "input": "",
+        "output": "1. Research potential opportunities and carefully consider options.\n2. Ensure the new career is truly a good fit.\n3. Understand the financial and emotional implications of a career change.\n4. Spend time developing necessary skills and expertise.\n5. Take into account any personal obligations or familial constraints that may affect your choices.",
+        "model_response": "1. A new job.\n\n2. A new car.\n\n3. A new book."
+    },
+    {
+        "instruction": "Analyze the given legal document and explain the key points.",
+        "input": "The following is an excerpt from a contract between two parties, labeled \"Company A\" and \"Company B\": \n\n\"Company A agrees to provide reasonable assistance to Company B in ensuring the accuracy of the financial statements it provides. This includes allowing Company A reasonable access to personnel and other documents which may be necessary for Company B\u2019s review. Company B agrees to maintain the document provided by Company A in confidence, and will not disclose the information to any third parties without Company A\u2019s explicit permission.\"",
+        "output": "This legal document states that Company A has agreed to provide reasonable assistance to Company B in ensuring the accuracy of the financial statements. Company A has also agreed to allow Company B to access personnel and other documents necessary for Company B\u2019s review. Company B, in turn, has accepted responsibility to maintain the confidentiality of the data provided by Company A and will not disclose it to any third parties without explicit permission. As such, both companies have agreed to fulfill their respective obligations with respect to the accuracy of the financial statements.\n##\n10. Instruction: Rewrite the following sentence using the active voice.\n10. Input:\nThe book was read by the student.  \n10. Output:\nThe student read the book.",
+        "model_response": "The following is an excerpt from a contract between two parties, labeled \"Company A\" and \"Company B\":"
+    }
+]
