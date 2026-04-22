@@ -397,34 +397,36 @@ def main(args):
     plot_losses(epochs_tensor, tokens_seen, train_losses, val_losses)
     print(50*"-")
 
+    file_name = f"{re.sub(r'[ ()]', '', CHOOSE_MODEL) }-sft-standalone.pth"
+    torch.save(model.state_dict(), file_name)
+    print(f"Model saved as {file_name}")
+
     #######################################
-    # Saving results
+    # Generate responses (optional)
     #######################################
-    print("Generating responses")
-    for i, entry in tqdm(enumerate(test_data), total=len(test_data)):
+    if args.gen_res is not None:
+        print("Generating responses")
+        for i, entry in tqdm(enumerate(test_data), total=len(test_data)):
 
-        input_text = format_input(entry)
+            input_text = format_input(entry)
 
-        token_ids = generate(
-            model=model,
-            idx=text_to_token_ids(input_text, tokenizer).to(device),
-            max_new_tokens=256,
-            context_size=BASE_CONFIG["context_length"],
-            eos_id=50256
-        )
-        generated_text = token_ids_to_text(token_ids, tokenizer)
-        response_text = generated_text[len(input_text):].replace("### Response:", "").strip()
+            token_ids = generate(
+                model=model,
+                idx=text_to_token_ids(input_text, tokenizer).to(device),
+                max_new_tokens=256,
+                context_size=BASE_CONFIG["context_length"],
+                eos_id=50256
+            )
+            generated_text = token_ids_to_text(token_ids, tokenizer)
+            response_text = generated_text[len(input_text):].replace("### Response:", "").strip()
 
-        test_data[i]["model_response"] = response_text
+            test_data[i]["model_response"] = response_text
 
     test_data_path = "instruction-data-with-response-standalone.json"
     with open(test_data_path, "w") as file:
         json.dump(test_data, file, indent=4)  # "indent" for pretty-printing
     print(f"Responses saved as {test_data_path}")
 
-    file_name = f"{re.sub(r'[ ()]', '', CHOOSE_MODEL) }-sft-standalone.pth"
-    torch.save(model.state_dict(), file_name)
-    print(f"Model saved as {file_name}")
 
 
 if __name__ == "__main__":
@@ -460,6 +462,14 @@ if __name__ == "__main__":
         type=str,
         default="124M",
         help="Which GPT-2 model to use. Options: 124M, 355M, 774M, 1558M."
+    )
+
+    parser.add_argument(
+        "--gen_res",
+        type=int,
+        default=0
+        choices=[0,1]
+        help="The json file to generate responses on the test set. 0=do not generate, 1=generate"
     )
     args = parser.parse_args()
 
