@@ -1,1 +1,5 @@
 *.pth
+alpaca_data.json
+alpaca_train.json
+alpaca_val.json
+alpaca_test.json
