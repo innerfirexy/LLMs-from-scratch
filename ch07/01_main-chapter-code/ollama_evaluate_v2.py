@@ -153,14 +153,14 @@ def check_ollama_reachable(base_url, timeout=5):
         return False
 
 
-def resolve_url(user_url):
+def resolve_url(user_url, port=11434):
     """Build the full API chat URL from a user-provided IP/hostname."""
     user_url = user_url.strip()
     # If user already provided a full URL, use it directly
     if user_url.startswith("http://") or user_url.startswith("https://"):
         return user_url
     # Otherwise treat it as an IP address or hostname
-    return f"http://{user_url}:11434/api/chat"
+    return f"http://{user_url}:{port}/api/chat"
 
 
 def is_localhost(url):
@@ -183,7 +183,7 @@ def test_instruction_data_with_response():
 
 
 def main(args):
-    api_url = resolve_url(args.url)
+    api_url = resolve_url(args.url, args.port)
 
     if is_localhost(api_url):
         ollama_running = check_if_running("ollama")
@@ -212,5 +212,6 @@ if __name__ == "__main__":
     parser.add_argument("--file_path", type=str, required=True)
     parser.add_argument("--model", type=str, default="gpt-oss:20b", help="The judge model to use for evaluation")
     parser.add_argument("--url", type=str, default="127.0.0.1", help="IP address or hostname of the Ollama server (default: 127.0.0.1)")
+    parser.add_argument("--port", type=int, default=11434, help="Port number of the Ollama server (default: 11434)")
     args = parser.parse_args()
     main(args)
