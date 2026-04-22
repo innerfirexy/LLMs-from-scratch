@@ -380,7 +380,7 @@ def main(args):
     start_time = time.time()
     optimizer = torch.optim.AdamW(model.parameters(), lr=0.00005, weight_decay=0.1)
 
-    num_epochs = 2
+    num_epochs = args.num_epochs
 
     torch.manual_seed(123)
     train_losses, val_losses, tokens_seen = train_model_simple(
